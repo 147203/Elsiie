@@ -69,3 +69,7 @@ body{
     margin-bottom: 15px;
     color: #333;
 }
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+}
