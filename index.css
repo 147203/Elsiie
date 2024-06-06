@@ -8,9 +8,9 @@ p{
     color: aquamarine;
     padding-left: 300px;
     padding-right: 200px;
-    padding-top: 30px;
     font-size: x-large;
     text-align: center;
+    width: 600px;
 }
 
 body{
