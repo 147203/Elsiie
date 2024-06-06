@@ -1,16 +1,17 @@
 h1 {
     color: aquamarine;
-    background-color: black;
+    text-align: center;
+
     border: 1px;
 }
 p{
     color: aquamarine;
-    background-color: black; 
+    
     font-size: x-large;
     text-align: left;
 }
 
 body{
-    background-color: black;
+    
     background-image: url(apo.jpg);
 }
