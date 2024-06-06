@@ -1,9 +1,9 @@
 h1 {
     color: aquamarine;
     text-align: center;
-
     border: 1px;
 }
+
 p{
     color: aquamarine;
     padding-left: 300px;
@@ -19,5 +19,6 @@ p{
 
 body{
     background-image: url(apo.jpg);
+    nav-index: inherit;
     
 }
