@@ -16,6 +16,9 @@ li{
     list-style: none;
     display: inline-block;
 }
+li a{
+    color: #000;
+}
 h1 {
     color: aquamarine;
     text-align: center;
