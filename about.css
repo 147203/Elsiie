@@ -30,5 +30,9 @@ body{
     display: block;
     margin: 0 auto;
     background-color: #4caf50;
-    
+}
+.heading p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
 }
