@@ -31,3 +31,13 @@ input, textarea{
     border: none;
     outline: none;
 }
+button{
+    font-size: 17px;
+    background-color: #82104f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
