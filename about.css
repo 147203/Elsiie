@@ -58,3 +58,6 @@ body{
     display: block;
     transition: 0.5s ease;
 }
+.about-image:hover img{
+    transform: scale(1.5);
+}
