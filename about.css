@@ -16,4 +16,9 @@ body{
     text-align: center;
     margin:20px auto;
 }
-    
+.heading h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
