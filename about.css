@@ -61,3 +61,6 @@ body{
 .about-image:hover img{
     transform: scale(1.5);
 }
+.about-content{
+    flex: 1;
+}
