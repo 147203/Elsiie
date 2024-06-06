@@ -64,3 +64,8 @@ body{
 .about-content{
     flex: 1;
 }
+.about-content p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
