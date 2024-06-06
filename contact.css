@@ -13,3 +13,7 @@ body{
     display: flex;
     justify-content: center;
 }
+.contact, .content{
+    width: 100%;
+    padding: 25px;
+}
