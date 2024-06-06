@@ -6,12 +6,14 @@ h1 {
 }
 p{
     color: aquamarine;
-    
+    padding-left: 300px;
+    padding-right: 200px;
+    padding-top: 30px;
     font-size: x-large;
-    text-align: left;
+    text-align: center;
 }
 
 body{
-    
     background-image: url(apo.jpg);
+    
 }
