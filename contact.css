@@ -17,6 +17,16 @@ body{
     width: 100%;
     padding: 25px;
 }
+.contact h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #2c1c5c;
+}
+.content h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #82104f;
+}
 label{
     color: #222;
     font-size: 17px;
