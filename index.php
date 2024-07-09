@@ -12,7 +12,7 @@
         <div class="logo"><a href="#">Gadget World</a></div>
         <ul>
             <li><a href="home">Home</a></li>
-            <li><a href="products">Products</a></li>
+            <li> <a href="products">Products</a> </li>
             <li><a href="services">Services</a></li>
             <li><a href="reviews">Review</a></li>
             <li><a href="about.html">About Us</a></li>
@@ -28,5 +28,6 @@
         Your <br> Trusted<br>Gadgets dealer<br> in Kenya.
         <br>Where quality meets innovation in kenya's top destination for authentic products and exceptional services.
     </p>
+    
 </body>
 </html>
