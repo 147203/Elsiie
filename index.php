@@ -10,16 +10,7 @@
     <nav class="navbar">
     <div class="navdiv">
         <div class="logo"><a href="#">Gadget World</a></div>
-        <ul>
-            <li><a href="home">Home</a></li>
-            <li> <a href="products">Products</a> </li>
-            <li><a href="services">Services</a></li>
-            <li><a href="reviews">Review</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contacts.html">Contacts</a></li>
-            <button><a href="signin">SignIn</a></button>
-            <button><a href="signout">SignOut</a></button>
-        </ul>
+        <?php include_once("templates/nav.php");?>
     </div>
     </nav>
     </body>

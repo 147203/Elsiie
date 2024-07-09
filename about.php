@@ -9,6 +9,7 @@
 <body >
     <div class="heading">
     <h1>About Us</h1>
+    <?php include_once("templates/nav.php");?>
     <p>
         We are independent company specializing in the sale and repair of all gadgets.
     </p>

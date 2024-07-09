@@ -1,6 +1,6 @@
 <?php
 // Database connection
-require_once("dbconnection.php");
+require_once("dbconnections.php");
 
 // Delete a record if DelId is set
 if (isset($_GET["DelId"])) {
@@ -30,8 +30,13 @@ if (isset($_GET["DelId"])) {
     <header>
         <img src="images/GadgetWorldLogo.png" alt="Gadget World Logo">
         <h1>Contact Us Messages</h1>
-        <?php include_once("templates/nav.php");?>
     </header>
+
+    <nav>
+        <a href="index.php">Home</a>
+        <a href="contact.php">Contact Us</a>
+        <a href="view_messages.php">View Messages</a>
+    </nav>
 
     <main>
         <div class="content">
@@ -64,7 +69,7 @@ if ($sel_msg_res->num_rows > 0) {
                         <td><?php echo $sel_msg_row["email"]; ?></td>
                         <td><?php echo substr($sel_msg_row["message"], 0, 50) . '...'; ?></td>
                         <td><?php echo date("d-M-Y H:i", strtotime($sel_msg_row["created_at"])); ?></td>
-                        <td>[ <a href="edit_contact.php?id=<?php echo $sel_msg_row["id"]; ?>">Edit</a> ] [ <a href="?DelId=<?php echo $sel_msg_row["id"]; ?>">Del</a> ]</td>
+                        <td class="actions">[ <a href="edit_message.php?id=<?php echo $sel_msg_row["id"]; ?>">Edit</a> ] [ <a href="?DelId=<?php echo $sel_msg_row["id"]; ?>">Del</a> ]</td>
                     </tr>
 <?php
     }

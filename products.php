@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>Products</h1>
+    <?php include_once("templates/nav.php");?>
+
     <p>
         <ul>
             <li>iphone</li>

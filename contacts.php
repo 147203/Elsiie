@@ -9,6 +9,8 @@
 <body>
     <div class="container">
         <h1>Contact Us</h1>
+        <?php include_once("templates/nav.php");?>
+
         
         <?php
         require_once 'dbconnections.php'; // Make sure to update the path if necessary

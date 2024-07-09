@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>Services</h1>
+    <?php include_once("templates/nav.php");?>
+
     <ul>
         <li>Shop</li>
         <li>Repairs</li>

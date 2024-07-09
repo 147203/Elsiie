@@ -6,8 +6,8 @@
                 <li><a href="contacts.php">Contact</a></li>
                 <li><a href="review.php">Feedback</a></li>
                 <li><a href="products.php">Products</a></li>
-                <li><a href="view_messages.php">message</a></li>
-                
+                <li><a href="view_message.php">viewmessage</a></li>
+
 
 
             </ul>

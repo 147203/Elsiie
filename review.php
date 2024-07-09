@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>Review Us</h1>
+    <?php include_once("templates/nav.php");?>
+
     <p>
         Mobile +2541178689<br>
         Email info@applesolutions.co.ke
