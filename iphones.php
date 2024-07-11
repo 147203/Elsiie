@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iPhone Products</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="iphones.css">
 </head>
 <body>
     <h1>iPhone Products</h1>

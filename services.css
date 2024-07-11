@@ -1,0 +1,59 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #444;
+    padding: 20px 0;
+    background-color: #fff;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Navigation bar styles (assuming it has a class or ID, adjust as necessary) */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Services list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+ul li {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+}
+
+
