@@ -1,0 +1,77 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #444;
+    padding: 20px 0;
+    background-color: #fff;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Navigation bar styles (assuming it has a class or ID, adjust as necessary) */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Product list styles */
+.product-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.product-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list ul li {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.product-list ul li:hover {
+    background-color: #f0f0f0;
+}
+
+.product-list ul li h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.product-list ul li p {
+    margin: 5px 0 0;
+    color: #666;
+}
