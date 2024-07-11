@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <h1>Contact Us</h1>
+        <p></P>
         <?php include_once("templates/nav.php");?>
 
         
